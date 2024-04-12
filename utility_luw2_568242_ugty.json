@@ -1,0 +1,96 @@
+87,33,75,40,30,59,84,43,35,79,78,58,21,82,16,88,79,91,71,38,47,73,79,15,20,65,17,19,20,85,42,20,35,85,86,53,95,78,71 + true
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+false + true
+
+const reverseString = str => str.split("").reverse().join("");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+17 / true
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const randomNumber = getRandomNumber();
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const removeDuplicates = array => Array.from(new Set(array));
+// This is a comment
+class MyClass { constructor() { this.property = getRandomString(); } }
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const variableName = getRandomNumber();
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+function addNumbers(a, b) { return a + b; }
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+54,69,86,65,17,71,49,56,70,77,49,84,45,13,34,2,11 / false
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+67 - true
+function addNumbers(a, b) { return a + b; }
+false + banana
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const squareRoot = num => Math.sqrt(num);
+true / kiwi
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+2,40,62,17,30,56,91,15,16,4,37,91,16,69,75,5,78,11 + false
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const multiply = (a, b) => a * b;
+const findLargestNumber = numbers => Math.max(...numbers);
+function addNumbers(a, b) { return a + b; }
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sum = (a, b) => a + b;
+95 + false
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+42 / false
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+apple
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+orange
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+true * banana
+const removeDuplicates = array => Array.from(new Set(array));
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const reverseString = str => str.split("").reverse().join("");
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+grape - 66,97,94,62,34,78,89,40,98,58,11,38,64,0,34,4,83,19
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+orange + banana
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple - false
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+banana - 3
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+orange
+
+
+const reverseString = str => str.split("").reverse().join("");
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+banana
+
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
