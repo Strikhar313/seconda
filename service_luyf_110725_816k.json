@@ -1,0 +1,67 @@
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+12,67,96,34,85,78,59,30,32,26,3,92,26,72,22,6,45,92,76,17,62,32,36,76,13,20,52,29,69,49,68,41,86,89,5,70,82,33,46,31,73,14,55,33,70,55,50,42,5,31,16,32,15,85,67,51,50,90,41,6,11 * 68,27,51,15,42,61,36,25,15,14,14,3,89,15,23,91,10,92,82,63,5,54,20,19
+const capitalizeString = str => str.toUpperCase();
+apple
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+function addNumbers(a, b) { return a + b; }
+grape
+
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+true * 95,25,49,18,68,39,35,56,59,64,61,16,78,33,41,41,79,78,2,90,21
+
+const randomNumber = getRandomNumber();
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+31,8,51,75,8,14,57,86,62,53,24,50,50,64,6,27,71,28,12,1,48,8 + 37,89,85,62,0,98,36,48,62,67,93,14,95,74,47,76,39,2,94,62,5,63,85,41,35,85,0,66,81,34,96,75,15,44,43,54,12,0,61,97,50,31,2,27,64,72,24,49,7,12,62,10,12,17,61,29,4,24,34,1,17,27,42,43,94,66,5,37,83,27,36,88,58,15,31,4
+const reverseWords = str => str.split(" ").reverse().join(" ");
+false + kiwi
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+true / kiwi
+const getRandomElement = array => array[getRandomIndex(array)];
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const squareRoot = num => Math.sqrt(num);
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const variableName = getRandomNumber();
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+false * false
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const randomNumber = getRandomNumber();
+false + 68
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+banana
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const greet = name => `Hello, ${name}!`;
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+54 - 85
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+63,92,70,59,86,2,0,3,15,70,73,95,67,34,22,72,16,26,53,90,29,45,92,62,1,90,36,32,43,41,29,11,4,58,18,26,69,92,13,58,39,23,43,82,73,30,28,97,37,35,68,6,53,79,28,85,55,68,84,35,68,7,33,3,50,6,96,82,69,93,42,61,13,23,14,34,4,5,47,99,60,92,94,87,48,55,58,95,84,8,55,89,82 + orange
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sum = (a, b) => a + b;
+false * true
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
