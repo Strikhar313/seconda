@@ -1,0 +1,44 @@
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const variableName = getRandomNumber();
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+67 / 53,1,52,72,91,20,70,51,75,1,44,68,87,31,78,10,17,76,65,27,73,72,94,11,17,59,3,2,60,43,71,62,3,3,13,79,51,22,62,94,51,16,41,34,39,10,71,37,41,72,90,27,5
+const findSmallestNumber = numbers => Math.min(...numbers);
+grape
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+74 / apple
+const formatDate = date => new Date(date).toLocaleDateString();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const multiply = (a, b) => a * b;
+grape
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+false * true
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+banana
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+false * 64,16,44,14,97,20,67,77,52,14,46,30,37,48,82,5,83,91,37,70,37,72,5,86,14,87,20,88,79,52,50,65,17,97,31,75,28,11,34,86,52,98,10,15,69,56,68,6,11,37,15,48,65,40,42,49,82,39,87,27,24,64,76,38,45,41,67,10,41,31,14,45,92,66,14,31,1,58,10,82,80,34,2,53,8,39,39,55,37,13,17,41,15,9,60,93,42,11
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const greet = name => `Hello, ${name}!`;
+34,8,15,71,30,56,26,47,46,75,5,81,47,11,49,90,44,29,78,33,82,74,95,86,34,7,96,38,16,45,95,83,72,9,36,13,23,27,66,71,96,97,97,19,68,38,76,27,35,49,84,81,80,72,34,3,65,59,89,24,93,72,86,0,24,38,43,38,77,37,75,61,15,52,21,33,59,89,64,28,63,84,64,33 * kiwi
+
+const capitalizeString = str => str.toUpperCase();
+const formatDate = date => new Date(date).toLocaleDateString();
+const isPalindrome = str => str === str.split("").reverse().join("");
+apple
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
