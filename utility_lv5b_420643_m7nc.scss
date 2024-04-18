@@ -1,0 +1,63 @@
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const sum = (a, b) => a + b;
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getRandomSubset = (array, size) => array.slice(0, size);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+// This is a comment
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+false / 42,79,20,29,5,83,4,21,62,24,79,8,17,57,98,35,16,10,41,34,74,70,92,49,17,77,56,89,33,90,4,93,73,51,89,28,84,77,15,91,12,33,96,93,87,46,38,37,56,53,85,40,89,63,45,73,69,43,62,54,59,84,98,45,17,70,56,37,76,78,53,87,84,36,66,60,2,87,43,56,29
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+64 - kiwi
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+77 / orange
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+const sum = (a, b) => a + b;
+grape
+
+function addNumbers(a, b) { return a + b; }
+
+46 * banana
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+apple
+
+const capitalizeString = str => str.toUpperCase();
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+apple
+
+const squareRoot = num => Math.sqrt(num);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+// This is a comment
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const getUniqueValues = array => [...new Set(array)];
+const squareRoot = num => Math.sqrt(num);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+16,56,30,82,5,84,8,72,18,61,78,80,65,66,58,68,35,41,20,26,77,55 * false
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+true - false
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+23,99,79,13,79,3,43,68,78,27,78,59,35,64,65 - 96
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
