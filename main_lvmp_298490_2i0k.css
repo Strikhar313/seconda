@@ -1,0 +1,77 @@
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const getUniqueValues = array => [...new Set(array)];
+false + true
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+1,42,57 - 73
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+grape
+
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+orange
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+grape * 18,75,68,87,49,46,31,43,2,74,81,52,64,56,52,93,86,73,22,73,99,36,94,55,87,46,32,18,58
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple
+
+
+const randomNumber = getRandomNumber();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+orange
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+apple
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+grape
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+grape - 18,62,66,43,23,80,76,59,61
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+66 + 63
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const randomNumber = getRandomNumber();
+banana + kiwi
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+43 * orange
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const greet = name => `Hello, ${name}!`;
+true - true
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+40,24,7,36,25,38,69,50,93,51,60,71,0,63,58,48,24,18,95,7,67,72,25,10,28,7,19,73,8,95 + false
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+grape * 96
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+false + true
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+false * 22
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+orange * kiwi
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+let array = getRandomArray(); array.forEach(item => console.log(item));
