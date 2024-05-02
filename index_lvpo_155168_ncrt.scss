@@ -1,0 +1,20 @@
+banana
+
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+kiwi / true
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+console.log(getRandomString());
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+kiwi * apple
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
